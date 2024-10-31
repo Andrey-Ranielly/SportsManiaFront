@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* Estilos gerais para o conteúdo */
+.content {
+    padding: 20px;
+  }
+  
+  /* Estilos para o título e breadcrumbs */
+  .content-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .breadcrumb {
+    font-size: 14px;
+    color: #FFD700; /* Dourado para o breadcrumb */
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumb-link {
+    color: #FFD700;
+    text-decoration: none;
+  }
+  
+  .breadcrumb-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para a barra de ferramentas */
+  .toolbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .filter-btn, .add-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    color: #000; /* Texto preto */
+  }
+  
+  /* Botão Filtrar */
+  .filter-btn {
+    background-color: transparent;
+    color: #000; /* Texto preto */
+  }
+  
+  .filter-btn:hover {
+    background-color: #f2f2f2; /* Leve destaque no hover */
+  }
+  
+  /* Botão Adicionar Cliente */
+  .add-btn {
+    background-color: #FFD700; /* Cor dourada */
+    color: #000; /* Texto preto */
+  }
+  
+  .add-btn:hover {
+    background-color: #e6c200; /* Sombra dourada para hover */
+  }
+  
+  /* Estilos para a tabela */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilos específicos para ClientePage */
+  .table th, .table td {
+    color: #333; /* Texto escuro */
+  }
+  
+  .table th {
+    background-color: #FFEBCD; /* Cor suave para o cabeçalho */
+  }
+  
+  .table td {
+    background-color: #FFF8DC; /* Cor suave para linhas de dados */
+  }
+  
